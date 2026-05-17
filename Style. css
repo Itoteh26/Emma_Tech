@@ -1,0 +1,27 @@
+*, *::before, *::after { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+html, body, #root { 
+  height: 100%; 
+}
+body { 
+  background: #07090f; 
+  font-family: 'DM Sans', sans-serif; 
+  color: #f1f5f9; 
+}
+::-webkit-scrollbar { 
+  width: 5px; 
+}
+::-webkit-scrollbar-thumb { 
+  background: #1f2937; 
+  border-radius: 3px; 
+}
+@keyframes et-pulse { 
+  0%, 100% { opacity: .25; transform: scale(.75); } 
+  50% { opacity: 1; transform: scale(1); } 
+}
+input, textarea, button { 
+  font-family: 'DM Sans', sans-serif; 
+}
